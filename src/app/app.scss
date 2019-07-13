@@ -4,3 +4,15 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+@import '../theme/fonts.scss';
+.icon-16px {
+    font-size: 16px;
+}
+
+.icon-32px {
+    font-size: 32px;
+}
+
+.icon-40px {
+    font-size: 40px;
+}

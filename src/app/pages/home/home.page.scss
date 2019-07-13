@@ -1,0 +1,81 @@
+.card {
+    background-color: #1D2431;
+}
+
+.title {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.subtitle {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-box {
+    max-width: 272px;
+    background: #1D2431;
+    /* Shadow / Button */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 0 auto !important;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+}
+
+.card-pretitle {
+    font-family: 'Cabin Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #AEB5B3;
+}
+
+.card-title {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #F0F5F1;
+}
+
+.card-content {
+    font-family: 'Cabin Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #F0F5F1;
+    /* identical to box height, or 17px */
+}
+
+.card-button {
+    width: 85px;
+    height: 24px;
+    background: #F0F5F1;
+    border-radius: 5px;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #1D2431;
+}
+
+.progress-bar {
+    height: 40px;
+    background: #FF7227;
+    /* Shadow / Button */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #F0F5F1;
+    margin-bottom: 10%;
+}

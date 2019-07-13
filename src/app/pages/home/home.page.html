@@ -1,0 +1,55 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-button color="dark">
+                <ion-icon class="icon-32px" name="settings"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid padding>
+        <ion-row>
+            <ion-col class="title tc">
+                Save the bees
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="tc">
+                <img width="124" class="mt-2 mb-3" src="../../assets/bee.png">
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="subtitle tc">
+                If we die, we're taking you with us
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="items-center mt-5 mb-2">
+                <ion-card class="card-box">
+                    <ion-card-header>
+                        <ion-card-subtitle class="card-text card-pretitle">Siguiente consejo</ion-card-subtitle>
+                        <ion-card-title class="card-text card-title">{{title}}</ion-card-title>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        <div class="card-text card-content tl">{{content}}</div>
+                    </ion-card-content>
+
+                    <ion-row class="tc mb-2">
+                        <ion-col>
+                            <ion-button color="light" class="card-button" disabled="disabled">VER TODOS</ion-button>
+                        </ion-col>
+                        <ion-col>
+                            <ion-button color="light" class="card-button" (click)="openTip()">ABRIR</ion-button>
+                        </ion-col>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <!-- <div class="progress-bar">
+            0/5
+        </div> -->
+    </ion-grid>
+</ion-content>

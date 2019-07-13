@@ -1,0 +1,45 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button color="dark" (click)="goBack()">
+                <ion-icon class="icon-32px" name="arrow-back"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-button color="dark">
+                <ion-icon class="icon-32px" name="share"></ion-icon>
+            </ion-button>
+            <ion-button color="dark">
+                <ion-icon class="icon-40px" name="more"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">
+                {{tipTitle}}
+            </div>
+
+            <!--No está centrada!!-->
+            <img class="card-image" [src]="tipImage">
+
+            <div class="card-content">
+                <p *ngFor="let p of paragraphs">{{p}}</p>
+            </div>
+
+
+
+
+            <ion-button color="light" class="card-button" (click)="nextTip()">
+                <div *ngIf="index !== 6" class="card-button-text">SIGUIENTE</div>
+                <div *ngIf="index === 6" class="row align-items-center justify-content-center">
+                    <ion-icon class="icon-16px ml-2" name="share"></ion-icon>
+                    <div class="card-button-text ml-2 mr-2">COMPARTIR</div>
+                </div>
+            </ion-button>
+        </div>
+    </div>
+</ion-content>

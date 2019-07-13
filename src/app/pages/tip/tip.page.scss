@@ -1,0 +1,60 @@
+.card {
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    background: #D48251;
+    /* Shadow / Button */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 32px;
+}
+
+.card-title {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140.62%;
+    /* or 20px */
+    text-align: center;
+    letter-spacing: 0.08em;
+    /* Main colors / White crystal */
+    color: #FFFFFF;
+}
+
+.card-image {
+    width: 256px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    align-self: center;
+}
+
+.card-content {
+    font-family: 'Cabin Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    /* or 20px */
+    text-align: center;
+    letter-spacing: 0.08em;
+    /* Main colors / White crystal */
+    color: #FFFFFF;
+}
+
+.card-button {
+    margin-top: 24px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.card-button-text {
+    font-family: 'Cabin Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}

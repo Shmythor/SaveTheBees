@@ -1,5 +1,7 @@
 {
   "name": "SaveTheBees",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
